@@ -2,10 +2,9 @@
   "name": "koma2.me",
   "short_name": "koma2.me",
   "theme_color": "#3ca9ff",
-  "background_color": "#2d93e4",
   "display": "standalone",
-  "Scope": "/",
-  "start_url": "https://koma2.me",
+  "scope": "/",
+  "start_url": "/",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
