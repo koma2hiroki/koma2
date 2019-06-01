@@ -2,6 +2,7 @@
   "name": "koma2.me",
   "short_name": "koma2.me",
   "theme_color": "#3ca9ff",
+  "background_color": "#fff",
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
