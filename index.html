@@ -1,17 +1,72 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
-  <title>koma2</title>
-  <link rel="manifest" href="/manifest.json">
-  <script async src="https://cdn.jsdelivr.net/npm/pwacompat@2.0.9/pwacompat.min.js" integrity="sha384-VcI6S+HIsE80FVM1jgbd6WDFhzKYA0PecD/LcIyMQpT4fMJdijBh0I7Iblaacawc" crossorigin="anonymous"></script>
-  <style type="text/css">
-    html { overflow: auto; height: 100%;}
-  </style>
-</head>
-<body>
-  <div>Hello, I am iminux.</div>
-  <div>I'm blockchain man.</div>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <title>koma2</title>
+    <link rel="manifest" href="/manifest.json" />
+    <script
+      async
+      src="https://cdn.jsdelivr.net/npm/pwacompat@2.0.9/pwacompat.min.js"
+      integrity="sha384-VcI6S+HIsE80FVM1jgbd6WDFhzKYA0PecD/LcIyMQpT4fMJdijBh0I7Iblaacawc"
+      crossorigin="anonymous"
+    ></script>
+    <style type="text/css">
+      html {
+        overflow: auto;
+        height: 100%;
+      }
+      body {
+        height: 100%;
+      }
+      .container {
+        display: table;
+        height: 100%;
+        width: 100%;
+      }
+      .page {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+      }
+      .img {
+        height: 80px;
+        width: 80px;
+        border-radius: 100%;
+        margin-bottom: 10px;
+      }
+      .profile {
+        margin-bottom: 50px;
+        color: rgb(19, 19, 19);
+      }
+      .counter {
+        /* position: absolute;
+        bottom: 10%; */
+        text-align: center;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="page">
+        <div class="profile">
+          <img src="/images/user.jpg" class="img" />
+          <div>Hello, I am iminux.</div>
+        </div>
+
+        <a
+          href="https://www.webfreecounter.com/"
+          target="_blank"
+          class="counter"
+          ><img
+            src="https://www.cutercounter.com/hits.php?id=hmxdqafc&nd=6&style=1"
+            border="0"
+        /></a>
+      </div>
+    </div>
+  </body>
 </html>
